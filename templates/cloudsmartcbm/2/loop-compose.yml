@@ -1,0 +1,23 @@
+.catalog:
+  name: CloudSmartCBM
+  version: latest
+  uuid: cloudsmartcbm—0
+  questions:
+  - variable: HTTPS_PORT
+    description: 'CloudSmartCBM exposed port'
+    label: 'Port:'
+    required: true
+    default: 8443
+    type: int  
+  - variable: POSTGRE_PORT
+    description: 'POSTGRES exposed port'
+    label: 'Port:'
+    required: true
+    default: 5432
+    type: int  
+  - variable: KAFKA_PORT
+    description: 'KAFKAN exposed port'
+    label: 'Port:'
+    required: true
+    default: 9092
+    type: int
